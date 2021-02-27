@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BarberShop</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="autentificare">Autentificare</string>
+    <string name="username">Username</string>
+</resources>
