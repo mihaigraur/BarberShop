@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.proiectfinal.R;
+
 public class MenuActivity extends AppCompatActivity {
 
         @Override
