@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">BarberShop</string>
-    <string name="login">Login</string>
-    <string name="password">Password</string>
-    <string name="autentificare">Autentificare</string>
-    <string name="username">Username</string>
+    <string name="title_activity_fragmente">Fragmente</string>
+    <string name="tab_text_1">Programari</string>
+    <string name="tab_text_2">Frizeri</string>
+    <string name="tab_text_3">Contact</string>
 </resources>
