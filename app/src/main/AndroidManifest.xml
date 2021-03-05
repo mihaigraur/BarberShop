@@ -14,9 +14,19 @@
         android:theme="@style/Theme.ProiectFinal"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".Frizeri3Activity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
+            android:name=".Frizeri2Activity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".FrizeriActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+        <activity
             android:name=".Fragmente"
             android:label="@string/title_activity_fragmente"
-            android:theme="@style/Theme.ProiectFinal.NoActionBar"></activity>
+            android:theme="@style/Theme.ProiectFinal.NoActionBar" />
         <activity
             android:name=".MenuActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
