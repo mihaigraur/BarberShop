@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#85C588"
-    tools:context=".Frizeri2Activity">
+    tools:context=".Frizeri.Frizeri2Activity">
 
     <ScrollView
         android:layout_width="match_parent"

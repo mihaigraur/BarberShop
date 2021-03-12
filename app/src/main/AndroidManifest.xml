@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.proiectfinal">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -13,20 +14,35 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProiectFinal"
         android:usesCleartextTraffic="true">
+        <activity android:name=".ProgramariActivity"></activity>
         <activity
-            android:name=".Frizeri3Activity"
+            android:name=".Frizeri.Frizeri3Activity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name=".Frizeri2Activity"
-            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
-        </activity>
+            android:name=".Frizeri.Frizeri2Activity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"></activity>
         <activity
-            android:name=".FrizeriActivity"
+            android:name=".Frizeri.FrizeriActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
         <activity
-            android:name=".Fragmente"
+            android:name=".Fragment.Fragmente"
             android:label="@string/title_activity_fragmente"
             android:theme="@style/Theme.ProiectFinal.NoActionBar" />
+        <activity
+            android:name=".Fragment.Fragment1"
+            android:label="@string/title_activity_fragmente"
+            android:theme="@style/Theme.ProiectFinal.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Fragment.Fragment2"
+            android:label="@string/title_activity_fragmente"
+            android:theme="@style/Theme.ProiectFinal.NoActionBar"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Fragment.Fragment3"
+            android:label="@string/title_activity_fragmente"
+            android:theme="@style/Theme.ProiectFinal.NoActionBar"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".MenuActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />

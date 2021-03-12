@@ -1,9 +1,11 @@
-package com.example.proiectfinal;
+package com.example.proiectfinal.Fragment;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.proiectfinal.MenuActivity;
+import com.example.proiectfinal.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
