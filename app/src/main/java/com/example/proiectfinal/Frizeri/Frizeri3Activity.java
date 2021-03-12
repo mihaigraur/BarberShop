@@ -1,8 +1,10 @@
-package com.example.proiectfinal;
+package com.example.proiectfinal.Frizeri;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.proiectfinal.R;
 
 public class Frizeri3Activity extends AppCompatActivity {
 

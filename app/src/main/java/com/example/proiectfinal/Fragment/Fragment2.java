@@ -1,4 +1,4 @@
-package com.example.proiectfinal;
+package com.example.proiectfinal.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,11 +6,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+
+import com.example.proiectfinal.Frizeri.Frizeri2Activity;
+import com.example.proiectfinal.Frizeri.Frizeri3Activity;
+import com.example.proiectfinal.Frizeri.FrizeriActivity;
+import com.example.proiectfinal.R;
 
 public class Fragment2 extends Fragment {
     private ImageButton ib, ib2, ib3;
